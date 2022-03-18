@@ -110,5 +110,8 @@ fig = px.scatter(x=x1,y=x2,color=Y)
 st.plotly_chart(fig,use_container_width=False)
 #st.pyplot(fig)
 
+if __name__ == '__main__':
+    main()
+
 
 
