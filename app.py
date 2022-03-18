@@ -91,7 +91,7 @@ st.subheader(f"Accuracy = {acc}%")
 
 
     
-#Plotting
+#PlottingNew
 
 pca = PCA(2)
 X_projected = pca.fit_transform(X)
