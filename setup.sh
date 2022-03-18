@@ -1,10 +1,8 @@
-In the setup.sh file we will create a streamlit folder with a credentials.toml and a config.toml file.
-
 mkdir -p ~/.streamlit/
 
 echo "\
 [general]\n\
-email = \"immangeek@gmail.com\"\n\
+email = \"your-email@domain.com\"\n\
 " > ~/.streamlit/credentials.toml
 
 echo "\
